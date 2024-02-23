@@ -14,7 +14,6 @@ spec:
     # exclude all
     /*
     # include gitops dirs
-    !/infrastructure/terraform
     !/kubernetes
 ---
 # yaml-language-server: $schema=https://raw.githubusercontent.com/fluxcd-community/flux2-schemas/main/kustomization-kustomize-v1.json
@@ -25,7 +24,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 30m
-  path: ./kubernetes/prod/flux
+  path: ./kubernetes/flux
   prune: true
   wait: false
   sourceRef:
