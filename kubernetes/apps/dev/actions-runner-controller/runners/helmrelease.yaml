@@ -50,7 +50,7 @@ spec:
       spec:
         containers:
           - name: runner
-            image: ghcr.io/onedr0p/actions-runner:2.313.0@sha256:5caa4f5d95ff75285cb263302210ba28c5752497a29ee353eddbde89345a1e71
+            image: ghcr.io/onedr0p/actions-runner:2.319.1@sha256:a4089b96bb4561051c954cc1f9019497dcc166c027b8e1474da7246a16796b43
             command: ["/home/runner/run.sh"]
 
   valuesFrom:
