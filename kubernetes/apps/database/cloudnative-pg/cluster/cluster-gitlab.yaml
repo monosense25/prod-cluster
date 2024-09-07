@@ -6,7 +6,7 @@ metadata:
   name: pggitlab
 spec:
   instances: 3
-  imageName: ghcr.io/cloudnative-pg/postgresql:15.6
+  imageName: ghcr.io/cloudnative-pg/postgresql:16.4-7
   enableSuperuserAccess: true
   primaryUpdateStrategy: unsupervised
   storage:
