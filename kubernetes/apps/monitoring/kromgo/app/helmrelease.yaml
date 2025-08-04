@@ -41,7 +41,7 @@ spec:
           main:
             image:
               repository: ghcr.io/kashalls/kromgo
-              tag: v0.4.1
+              tag: v0.7.1
             env:
               PROMETHEUS_URL: http://thanos-query-frontend.monitoring.svc.cluster.local:9090
             securityContext:
